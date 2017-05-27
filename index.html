@@ -4,13 +4,205 @@
   <meta charset="UTF-8">
   <title>Cooper Heinrichs Portfolio</title>
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type="text/css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+
+
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="//rawgit.com/balupton/jquery-scrollto/gh-pages/lib/jquery-scrollto.js"></script>
+
 </head>
 <body>
-  <h1>Yooooo</h1>
-  <button class="btn btn-primary">yar</button>
+
+  <div class="landing">
+
+    <div class="landingLogoContainer">
+
+      <div class="logoAndName">
+        <img class="landingLogo" src="images/logo-1.svg" alt="">
+        <p class="fullName">COOPER HEINRICHS</p>
+        <p class="fullTitle">Full Stack Engineer</p>
+      </div>
+
+      <div class="scrollDownRow">
+        <img id="scrollDown1" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <div id="section2">
+
+    <div class="appDescriptionContainer">
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+          <img class="demoPhoto img-fluid" src="http://respect-mag.com/wp-content/uploads/2016/07/011716-NBA-Thunder-Russell-Westbrook-PI-CH.vresize.1200.675.high_.84.jpg" alt="">
+        </div>
+        <div class="col-lg-6 appTextContainer">
+          <h1 class="appName">W<span class="highlight">H</span>INNY</h1>
+          <a href="">View Demo Video</a>
+          <p>A cross platform app for all things horses</p>
+          Features:
+          <ul>
+            <li>User registration</li>
+            Allows users to sign up for a Whinny Account. This creates a user record in the database and sends them a confirmation text.
+
+            <li>1 on 1 chat</li>
+
+            <li>Push Notifications with Ionic Push</li>
+
+            <li>Emojis - Using contenteditable div and html parsing</li>
+
+            <li>Group Chat - Allows users to communicate in large groups</li>
+
+            <li>Web Client allows an authorized user to log in and </li>
+
+            <li>Server that handles messaging, photo messaging, group management routes etc, made with Express.js, Node.js </li>
+
+            <li>Photo uploading and hosting with Amazon S3</li>
+
+            <li>Works on iOS and Android</li>
+
+          </ul>
+
+          <p class="highlight">Ionic, Angular 1.5, Knex, Express, Node, Ionic Push, Twilio, Gulp, Sass</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollDownRow">
+      <img id="scrollDown2" class="scrollDownButton" src="images/scroll_down_button_white.svg" alt="">
+    </div>
+
+  </div>
+
+  <div id="section3">
+
+    <div class="appDescriptionContainer">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="appName">I<span class="highlight">N</span>GAME</h1>
+          <p>&copy; Professional Basketball Club</p>
+          <p>Live in-game analytics platform to view game statistics for The Oklahoma City Thunder</p>
+          Features:
+          <ul>
+            <li>Updating NBA schedule with current score and time</li>
+            <li>Live updating scoreboard, showing timeouts</li>
+            <li>HTML canvas shot chart, filterable by player</li>
+            <li>Full Chai test suite for many player statistic calculations</li>
+            <li>Fully responsive for any view size</li>
+          </ul>
+          <p class="highlight">Angular 1.5, Materialize CSS</p>
+        </div>
+
+        <div class="col-lg-6 imageContainer">
+          <img class="demoPhoto img-fluid" src="http://respect-mag.com/wp-content/uploads/2016/07/011716-NBA-Thunder-Russell-Westbrook-PI-CH.vresize.1200.675.high_.84.jpg" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="scrollDownRow">
+      <img id="scrollDown3" class="scrollDownButton" src="images/scroll_down_button.svg" alt="">
+    </div>
+
+  </div>
+
+  <div id="section4">
+
+    <div class="appDescriptionContainer">
+
+      <div class="row">
+        <div class="col-lg-6 imageContainer">
+          <img class="demoPhoto img-fluid" src="http://respect-mag.com/wp-content/uploads/2016/07/011716-NBA-Thunder-Russell-Westbrook-PI-CH.vresize.1200.675.high_.84.jpg" alt="">
+        </div>
+
+        <div class="col-lg-6 appDescriptionContainer">
+          <h1 class="appName">B<span class="highlight">A</span>RN ALERT</h1>
+          <a href="">View Live App</a>
+          <p>Live in-game analytics platform to view game statistics for a prominent NBA team.</p>
+          Features:
+          <ul>
+            <li>Updating NBA schedule with current score and time</li>
+            <li>Live updating scoreboard, showing timeouts</li>
+            <li>HTML canvas shot chart, filterable by player</li>
+            <li>Full Chai test suite for many player statistic calculations</li>
+            <li>Fully responsive for any view size</li>
+          </ul>
+          <p class="highlight">React, Node, Express, Postgres, Twitter API, Twilio, React-Bootstrap</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="scrollDownRow">
+      <img id="scrollDown4" class="scrollDownButton" src="images/scroll_down_button_white.svg" alt="">
+    </div>
+
+
+  </div>
+
+  <div id="section5">
+
+    <div class="row getInTouchRow">
+      <div class="col-lg-6">
+        <div class="getInTouch">
+          GET IN TOUCH!
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-2">
+        <div class="emailMe">
+        Email me at <a href="">Cooper.Heinrichs@gmail.com</a>
+        or find me on social media
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-lg-3 col-lg-offset-3 socialMediaIconContainer">
+        <a href="https://github.com/cheinrichs" target="_blank"><img class="socialMediaIcon" src="images/github-icon.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-lg-offset-3 socialMediaIconContainer">
+        <a href="https://www.linkedin.com/in/cooperheinrichs/" target="_blank"><img class="socialMediaIcon" src="images/linked_in.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
