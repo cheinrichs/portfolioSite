@@ -1,0 +1,9 @@
+/* small devices and most phones */
+@media only screen and (min-width : 480px) {
+  .getInTouch{
+    font-size: 5em !important;
+  }
+  .emailMe {
+    font-size: 1.85em !important;
+  }
+}

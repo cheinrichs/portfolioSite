@@ -1,0 +1,6 @@
+/* most tablets */
+@media only screen and (min-width : 768px) {
+  .getInTouch{
+    font-size: 6em !important;
+  }
+}

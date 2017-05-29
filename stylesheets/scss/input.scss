@@ -1,5 +1,6 @@
 $primary-blue: #292F36;
-$highlight: #43C59E;
+$highlight: #35798C;
+$highlight2: #ED254E;
 
 html, body {
   margin: 0;
@@ -13,9 +14,9 @@ html, body {
 
 }
 
-a:link {color: $highlight;}
+a:link {color: $highlight2;}
 a:active {color: #FFAB05; text-decoration: underline; }
-a:visited {color: $highlight; text-decoration: underline; }
+a:visited {color: $highlight2; text-decoration: underline; }
 a:hover {color: #FFAB05; text-decoration: none; }
 
 // < -- - -- - Landing - -- - -- >
@@ -46,7 +47,7 @@ a:hover {color: #FFAB05; text-decoration: none; }
   font-family: Nunito !important;
   font-weight: 100 !important;
   font-size: 2.5em;
-  color: $highlight;
+  color: $highlight2;
 }
 .logoAndName {
   margin: auto;
@@ -63,16 +64,18 @@ a:hover {color: #FFAB05; text-decoration: none; }
 
 
 #section2 {
+  position: relative;
   height: 100%;
   width: 100%;
   max-width: 100%;
   background-color: $primary-blue;
   margin: 0px;
-  color: white;
+  color: #FFFFFF;
   display: block;
 }
 
 #section3{
+  position: relative;
   height: 100%;
   width: 100%;
   max-width: 100%;
@@ -82,15 +85,17 @@ a:hover {color: #FFAB05; text-decoration: none; }
 }
 
 #section4 {
+  position: relative;
   height: 100%;
   width: 100%;
   max-width: 100%;
   background-color: $primary-blue;
   margin: 0px;
-  color: white;
+  color: #FFFFFF;
 }
 
 #section5 {
+  position: relative;
   height: 100%;
   width: 100%;
   max-width: 100%;
@@ -109,18 +114,19 @@ a:hover {color: #FFAB05; text-decoration: none; }
   color: $highlight;
 }
 
+.highlight2 {
+  color: $highlight2
+}
+
 .scrollDownRow{
-  position: relative;
-  top: 100px;
-
-
+  position: absolute;
+  bottom: 0px;
   width: 100%;
   text-align: center;
-
 }
 
 .scrollDownButton {
-  position: relative;
+  // position: relative;
   // top: 180px;
   // left: 5px;
   // margin: auto;
@@ -146,6 +152,29 @@ a:hover {color: #FFAB05; text-decoration: none; }
 .imageContainer {
   max-width: 100%;
   height: auto;
+}
+
+.red {
+  background-color: red;
+}
+
+.madeWith {
+  background-color: $highlight2;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.tech1 {
+  background-color: $highlight;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 2px;
+  margin: 10px 1px;
+}
+
+.techWhiteText{
+  color: white;
 }
 
 
@@ -176,3 +205,10 @@ a:hover {color: #FFAB05; text-decoration: none; }
   height: 50px;
   margin: 10px .5em 10px 0px;
 }
+
+
+@import 'scss/mediaQueries/min320.css';
+@import 'scss/mediaQueries/min480.css';
+@import 'scss/mediaQueries/min768.css';
+@import 'scss/mediaQueries/min992.css';
+@import 'scss/mediaQueries/min1200.css';

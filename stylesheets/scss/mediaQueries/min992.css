@@ -1,0 +1,7 @@
+/* smaller desktop viewpoints */
+
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+  .getInTouch{
+    font-size: 7em !important;
+  }
+}
