@@ -36,4 +36,13 @@ $(document).ready( function () {
     });
   });
 
+  $('#scrollDown5').click( function(){
+    console.log("clicked dat scroll down");
+    $('#section6').ScrollTo({
+      duration: 1500,
+      easing: 'swing'
+    });
+  });
+
+
 });

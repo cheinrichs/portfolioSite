@@ -14,9 +14,13 @@ html, body {
 
 }
 
+a {
+  text-decoration: none !important;
+}
+
 a:link {color: $highlight2;}
-a:active {color: #FFAB05; text-decoration: underline; }
-a:visited {color: $highlight2; text-decoration: underline; }
+a:active {color: #FFAB05; text-decoration: none; }
+a:visited {color: $highlight2; text-decoration: none; }
 a:hover {color: #FFAB05; text-decoration: none; }
 
 // < -- - -- - Landing - -- - -- >
@@ -59,6 +63,21 @@ a:hover {color: #FFAB05; text-decoration: none; }
   height: 150px;
 }
 
+.demoButton {
+  background-color: $highlight2;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  border-radius: 5px;
+  margin:  25px auto;
+  transition: .5s;
+}
+
+.demoButton:hover {
+  background-color: $highlight;
+  transition: .5s;
+}
+
 
 
 
@@ -72,6 +91,10 @@ a:hover {color: #FFAB05; text-decoration: none; }
   margin: 0px;
   color: #FFFFFF;
   display: block;
+}
+
+.whinnyWebsite {
+  width: 100%;
 }
 
 #section3{
@@ -94,6 +117,10 @@ a:hover {color: #FFAB05; text-decoration: none; }
   color: #FFFFFF;
 }
 
+.viewSourceCode {
+  height: 50px;
+}
+
 #section5 {
   position: relative;
   height: 100%;
@@ -102,6 +129,16 @@ a:hover {color: #FFAB05; text-decoration: none; }
   background-color: #FFFFFF;
   margin: 0px;
   color: $primary-blue;
+}
+
+#section6 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background-color: $primary-blue;
+  margin: 0px;
+  color: #FFFFFF;
 }
 
 
@@ -126,10 +163,6 @@ a:hover {color: #FFAB05; text-decoration: none; }
 }
 
 .scrollDownButton {
-  // position: relative;
-  // top: 180px;
-  // left: 5px;
-  // margin: auto;
   height: 75px;
 }
 
@@ -139,7 +172,7 @@ a:hover {color: #FFAB05; text-decoration: none; }
 }
 
 .appTextContainer {
-  font-size: 18px;
+  font-size: 1.5em;
 }
 
 .demoPhoto{
@@ -152,10 +185,14 @@ a:hover {color: #FFAB05; text-decoration: none; }
 .imageContainer {
   max-width: 100%;
   height: auto;
+  text-align: center;
 }
 
 .red {
   background-color: red;
+}
+.blueText{
+  color: $primary-blue;
 }
 
 .madeWith {
@@ -170,17 +207,50 @@ a:hover {color: #FFAB05; text-decoration: none; }
   padding: 10px;
   display: inline-block;
   border-radius: 2px;
-  margin: 10px 1px;
+  margin: 3px 1px;
 }
 
 .techWhiteText{
   color: white;
 }
 
+// < -- - -- - About Me - -- - -- >
 
+.coopPhotoContainer {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+.coopPhoto{
+  border-radius: 15px;
+  height: auto;
+  // width: 100%;
+}
+
+.aboutMe {
+  position: relative;
+  top: 200px;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.downloadMyResume {
+  background-color: $highlight2;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  border-radius: 5px;
+  margin:  25px auto;
+  font-size: 14px;
+  transition: .5s;
+}
+.downloadMyResume:hover {
+  background-color: $highlight;
+  transition: .5s;
+}
 
 // < -- - -- - Get In Touch - -- - -- >
-
 
 .getInTouch{
   margin-top: 1.25em;

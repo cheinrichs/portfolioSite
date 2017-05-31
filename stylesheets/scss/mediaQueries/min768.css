@@ -1,5 +1,5 @@
 /* most tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 768px) and (max-width : 992px) {
   .getInTouch{
     font-size: 6em !important;
   }

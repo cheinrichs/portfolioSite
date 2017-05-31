@@ -1,5 +1,5 @@
 /* small devices and most phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 480px) and (max-width : 768px){
   .getInTouch{
     font-size: 5em !important;
   }
