@@ -1,5 +1,55 @@
 /* small devices and most phones */
 @media only screen and (min-width : 480px) and (max-width : 768px){
+
+  .fullName {
+    font-size: 3em !important;
+  }
+  .fullTitle {
+    font-size: 1.8em !important;
+    color: yellow !important;
+  }
+
+  .appName {
+    font-size: 45px !important;
+    text-align: center;
+  }
+  .appTextContainer {
+    font-size: 1em !important;
+  }
+
+  #section2 {
+    min-height: 155% !important;
+  }
+
+  #section3 {
+    min-height: 120% !important;
+  }
+
+  #section4 {
+    min-height: 135% !important;
+  }
+
+  #section5 {
+    min-height: 115% !important;
+  }
+
+  #section6 {
+    min-height: 100% !important;
+  }
+
+  .aboutMe {
+    top: 10px !important;
+    text-align: center !important;
+  }
+  .coopPhotoContainer {
+    top: 50px !important
+  }
+  .coopPhoto{
+    border-radius: 5px !important;
+    height: auto  !important;
+    width: 80% !important;
+  }
+
   .getInTouch{
     font-size: 5em !important;
   }

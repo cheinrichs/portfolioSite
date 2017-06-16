@@ -10,4 +10,8 @@
     height: auto  !important;
     width: 300px !important;
   }
+
+  ul {
+    font-size: .8em !important;
+  }
 }
