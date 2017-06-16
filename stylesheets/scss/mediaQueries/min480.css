@@ -6,7 +6,6 @@
   }
   .fullTitle {
     font-size: 1.8em !important;
-    color: yellow !important;
   }
 
   .appName {
@@ -38,7 +37,7 @@
   }
 
   .aboutMe {
-    top: 10px !important;
+    top: 60px !important;
     text-align: center !important;
   }
   .coopPhotoContainer {

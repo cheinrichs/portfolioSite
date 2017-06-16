@@ -14,4 +14,13 @@
   ul {
     font-size: .8em !important;
   }
+
+  .coopPhotoContainer {
+    top: 120px !important
+  }
+  .coopPhoto{
+    border-radius: 5px !important;
+    height: auto  !important;
+    width: 70% !important;
+  }
 }

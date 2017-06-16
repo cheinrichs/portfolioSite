@@ -5,12 +5,10 @@
   }
   .fullTitle {
     font-size: 1.8em !important;
-    color: orange !important;
   }
 
   .appName {
     font-size: 75px !important;
-    text-align: center;
   }
   .appTextContainer {
     font-size: 1.3em !important;
@@ -37,11 +35,11 @@
   }
 
   .aboutMe {
-    top: 10px !important;
+    top: 80px !important;
     text-align: center !important;
   }
   .coopPhotoContainer {
-    top: 50px !important
+    top: 80px !important
   }
   .coopPhoto{
     border-radius: 5px !important;

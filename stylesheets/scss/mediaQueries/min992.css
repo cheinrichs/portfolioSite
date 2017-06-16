@@ -1,6 +1,64 @@
 /* smaller desktop viewpoints */
 @media only screen and (min-width : 992px) and (max-width : 1200px) {
+
+  .fullName {
+    font-size: 4em !important;
+  }
+  .fullTitle {
+    font-size: 3em !important;
+  }
+
+  .appName {
+    font-size: 80px !important;
+    text-align: center;
+  }
+  .appTextContainer {
+    font-size: 1em !important;
+  }
+
+  #section2 {
+    min-height: 100% !important;
+  }
+
+  #section3 {
+    min-height: 100% !important;
+  }
+
+  #section4 {
+    min-height: 100% !important;
+  }
+
+  #section5 {
+    min-height: 100% !important;
+  }
+
+  #section6 {
+    min-height: 100% !important;
+  }
+
+  .aboutMe {
+    font-size: 18px !important;
+    text-align: right !important;
+  }
+  .aboutMeTitle {
+    text-align: right !important;
+
+  }
+
+  .coopPhotoContainer {
+    top: 100px !important
+  }
+  .coopPhoto{
+    border-radius: 5px !important;
+    height: auto  !important;
+    width: 80% !important;
+  }
+
   .getInTouch{
     font-size: 7em !important;
   }
+  .emailMe {
+    font-size: 1.85em !important;
+  }
+
 }
