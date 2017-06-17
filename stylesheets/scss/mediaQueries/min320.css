@@ -81,4 +81,10 @@
     font-size: 1.2em !important;
   }
 
+  .landing {
+    background-image: url(../../../images/landing_bg_320.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 }

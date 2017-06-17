@@ -27,7 +27,7 @@
   }
 
   #section5 {
-    min-height: 115% !important;
+    min-height: 120% !important;
   }
 
   #section6 {
@@ -49,5 +49,10 @@
 
   .getInTouch{
     font-size: 6em !important;
+  }
+  .landing {
+    background-image: url(../../../images/landing_bg_992.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

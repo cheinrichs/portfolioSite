@@ -55,4 +55,9 @@
   .emailMe {
     font-size: 1.85em !important;
   }
+  .landing {
+    background-image: url(../../../images/landing_bg_768.svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
