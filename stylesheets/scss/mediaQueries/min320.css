@@ -1,8 +1,8 @@
 /*smaller phone viewpoints */
-@media only screen and (min-width : 320px) and (max-width : 480px){
+@media only screen and (min-width : 320px) and (max-width : 479px){
 
   .fullName {
-    font-size: 3em !important;
+    font-size: 2.5em !important;
   }
   .fullTitle {
     font-size: 1.8em !important;
@@ -12,11 +12,12 @@
     margin: 0px !important;
   }
   .appName {
+    color: gray !important;
     font-size: 45px !important;
     text-align: center;
   }
   .appTextContainer {
-    font-size: 1em !important;
+    font-size: auto;
   }
   .demoPhoto{
     margin-top: 20px !important;
@@ -28,29 +29,13 @@
     font-size: 1.2em !important;
   }
 
-  #section2 {
-    min-height: 140% !important;
-  }
-
-  #section3 {
-    min-height: 110% !important;
-  }
-
-  #section4 {
-    min-height: 120% !important;
-  }
-
-  #section5 {
-    min-height: 100% !important;
-  }
-
-  #section6 {
-    min-height: 100% !important;
+  li {
+    text-align: left !important;
   }
 
   .aboutMe {
     top: 25px !important;
-    text-align: center !important;
+    text-align: left !important;
   }
   .coopPhotoContainer {
     top: 50px !important

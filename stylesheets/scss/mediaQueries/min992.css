@@ -1,19 +1,23 @@
 /* smaller desktop viewpoints */
 @media only screen and (min-width : 992px) and (max-width : 1200px) {
 
+  .landingLogo {
+    height: 200px !important;
+  }
   .fullName {
-    font-size: 4em !important;
+    font-size: 6em !important;
   }
   .fullTitle {
-    font-size: 3em !important;
+    font-size: 4em !important;
   }
 
   .appName {
+    color: blue !important;
     font-size: 80px !important;
     text-align: center;
   }
   .appTextContainer {
-    font-size: 1em !important;
+    font-size: 1.8em !important;
   }
 
   #section2 {
@@ -59,6 +63,12 @@
   }
   .emailMe {
     font-size: 1.85em !important;
+  }
+  .scrollDownRow{
+    left: 15px !important;
+  }
+  .scrollDownButton {
+    height: 130px !important;
   }
 
   .landing {

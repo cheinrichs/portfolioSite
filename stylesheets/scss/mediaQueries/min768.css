@@ -1,17 +1,23 @@
 /* most tablets */
 @media only screen and (min-width : 768px) and (max-width : 992px) {
   .fullName {
-    font-size: 3em !important;
+    font-size: 4em !important;
   }
   .fullTitle {
-    font-size: 1.8em !important;
+    font-size: 2.5em !important;
   }
 
   .appName {
+    color: green !important;
     font-size: 75px !important;
   }
   .appTextContainer {
-    font-size: 1.3em !important;
+    font-size: 2.3em !important;
+  }
+
+  li {
+    border-left: 10px solid #35798C !important;
+    text-align: left !important;
   }
 
   #section2 {
@@ -19,11 +25,11 @@
   }
 
   #section3 {
-    min-height: 150% !important;
+    min-height: 160% !important;
   }
 
   #section4 {
-    min-height: 170% !important;
+    min-height: 160% !important;
   }
 
   #section5 {
@@ -36,7 +42,8 @@
 
   .aboutMe {
     top: 80px !important;
-    text-align: center !important;
+    text-align: left !important;
+    font-size: 3em !important;
   }
   .coopPhotoContainer {
     top: 80px !important
@@ -44,11 +51,27 @@
   .coopPhoto{
     border-radius: 5px !important;
     height: auto  !important;
-    width: 60% !important;
+    width: 100% !important;
   }
 
   .getInTouch{
-    font-size: 6em !important;
+    font-size: 7em !important;
+  }
+  .emailMe {
+    font-size: 2em !important;
+  }
+  .socialMediaIcon {
+    height: 100px !important;
+    margin: 20px 10px 20px 0px !important;
+  }
+  .scrollDownRow{
+    left: 12px !important;
+  }
+  .scrollDownButton {
+    height: 100px !important;
+  }
+  .demoButton {
+    width: 100% !important;
   }
   .landing {
     background-image: url(../../../images/landing_bg_992.svg) !important;

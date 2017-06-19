@@ -11,7 +11,6 @@ html, body {
   max-width: 100%;
 
   font-family: Nunito !important;
-
 }
 
 a {
@@ -71,7 +70,7 @@ a:hover {color: #FFAB05; text-decoration: none; }
   text-align: center;
   width: 150px;
   border-radius: 5px;
-  margin:  25px auto;
+  margin: 10px auto auto auto;
   transition: .5s;
 }
 
@@ -81,18 +80,18 @@ a:hover {color: #FFAB05; text-decoration: none; }
 }
 
 
-
-
-
 #section2 {
   position: relative;
-  height: 100%;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+
   width: 100%;
   max-width: 100%;
+
   background-color: $primary-blue;
   margin: 0px;
   color: #FFFFFF;
-  display: block;
 }
 
 .whinnyWebsite {
@@ -101,9 +100,13 @@ a:hover {color: #FFAB05; text-decoration: none; }
 
 #section3{
   position: relative;
-  height: 100%;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+
   width: 100%;
   max-width: 100%;
+
   background-color: #FFFFFF;
   margin: 0px;
   color: $primary-blue;
@@ -111,9 +114,13 @@ a:hover {color: #FFAB05; text-decoration: none; }
 
 #section4 {
   position: relative;
-  height: 100%;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+
   width: 100%;
   max-width: 100%;
+
   background-color: $primary-blue;
   margin: 0px;
   color: #FFFFFF;
@@ -125,9 +132,13 @@ a:hover {color: #FFAB05; text-decoration: none; }
 
 #section5 {
   position: relative;
-  height: 100%;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+
   width: 100%;
   max-width: 100%;
+
   background-color: #FFFFFF;
   margin: 0px;
   color: $primary-blue;
@@ -135,7 +146,8 @@ a:hover {color: #FFAB05; text-decoration: none; }
 
 #section6 {
   position: relative;
-  height: 100%;
+  display: inline-block;
+  min-height: 100%;
   width: 100%;
   max-width: 100%;
   background-color: $primary-blue;
@@ -157,10 +169,11 @@ a:hover {color: #FFAB05; text-decoration: none; }
   color: $highlight2
 }
 
-.scrollDownRow{
-  position: absolute;
-  bottom: 0px;
-  left: 10px;
+.scrollDownRow {
+  position: relative;
+  display: inline-block;
+  // bottom: 0px;
+  // left: 10px;
   width: 100%;
   text-align: center;
 }
@@ -249,21 +262,6 @@ li {
   font-size: 18px;
   vertical-align: middle;
   text-align: right;
-}
-
-.downloadMyResume {
-  background-color: $highlight2;
-  padding: 10px;
-  text-align: center;
-  width: 250px;
-  border-radius: 5px;
-  margin:  25px auto;
-  font-size: 14px;
-  transition: .5s;
-}
-.downloadMyResume:hover {
-  background-color: $highlight;
-  transition: .5s;
 }
 
 // < -- - -- - Get In Touch - -- - -- >

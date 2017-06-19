@@ -9,11 +9,12 @@
   }
 
   .appName {
+    color: purple !important;
     font-size: 45px !important;
     text-align: center;
   }
   .appTextContainer {
-    font-size: 1em !important;
+    font-size: 1.5em !important;
   }
 
   #section2 {
