@@ -1,9 +1,6 @@
 /* large devices and wide screens */
 
 @media only screen and (min-width : 1200px) {
-  .appName {
-    color: orange !important;
-  }
   .getInTouch{
     font-size: 9em !important;
   }
