@@ -65,6 +65,7 @@ a:hover {color: #FFAB05; text-decoration: none; }
 }
 
 .demoButton {
+  display: inline-block;
   background-color: $highlight2;
   padding: 10px;
   text-align: center;
@@ -92,10 +93,6 @@ a:hover {color: #FFAB05; text-decoration: none; }
   background-color: $primary-blue;
   margin: 0px;
   color: #FFFFFF;
-}
-
-.whinnyWebsite {
-  width: 100%;
 }
 
 #section3{
@@ -169,18 +166,15 @@ a:hover {color: #FFAB05; text-decoration: none; }
   color: $highlight2
 }
 
+
 .scrollDownRow {
   position: relative;
   display: inline-block;
-  // bottom: 0px;
-  // left: 10px;
   width: 100%;
   text-align: center;
+  background-color: red;
 }
 
-.scrollDownButton {
-  height: 75px;
-}
 
 .appDescriptionContainer {
   padding: 0px 50px;

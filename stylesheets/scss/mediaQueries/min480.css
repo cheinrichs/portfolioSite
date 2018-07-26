@@ -9,31 +9,14 @@
   }
 
   .appName {
-    font-size: 45px !important;
+    font-size: 55px !important;
     text-align: center;
   }
   .appTextContainer {
     font-size: 1.5em !important;
   }
-
-  #section2 {
-    min-height: 155% !important;
-  }
-
-  #section3 {
-    min-height: 120% !important;
-  }
-
-  #section4 {
-    min-height: 135% !important;
-  }
-
-  #section5 {
-    min-height: 115% !important;
-  }
-
-  #section6 {
-    min-height: 100% !important;
+  li {
+    text-align: left !important;
   }
 
   .aboutMe {
@@ -48,6 +31,10 @@
     height: auto  !important;
     width: 80% !important;
   }
+  .demoButton {
+    width: 100% !important;
+    margin-bottom: 25px !important;
+  }
 
   .getInTouch{
     font-size: 5em !important;
@@ -59,5 +46,13 @@
     background-image: url(../../../images/landing_bg_768.svg) !important;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .scrollDownRow1 {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+  .scrollDownButton {
+    height: 55px !important;
+    margin: 15px !important;
   }
 }

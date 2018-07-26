@@ -1,5 +1,4 @@
 /* large devices and wide screens */
-
 @media only screen and (min-width : 1200px) {
   .getInTouch{
     font-size: 9em !important;
@@ -31,6 +30,7 @@
     background-size: cover;
   }
 
+
   .coopPhotoContainer {
     top: 120px !important
   }
@@ -44,10 +44,17 @@
     width: 350px !important;
     font-size: 14px !important;
   }
-
-  .scrollDownRow {
+  .scrollDownRow1 {
     position: absolute !important;
-    left: 6px !important;
     bottom: 0px !important;
   }
+  .aboutMeScrollDownRow {
+    position: absolute !important;
+    bottom: 0px !important;
+  }
+  .scrollDownButton {
+    height: 55px !important;
+    margin: 20px !important;
+  }
+
 }
