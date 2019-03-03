@@ -136,6 +136,17 @@ a:hover {
   margin: 0px;
   color: #FFFFFF; }
 
+#section7 {
+  position: relative;
+  display: inline-block;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  background-color: #FFFFFF;
+  margin: 0px;
+  color: #292F36; }
+
 .appName {
   font-size: 100px; }
 
@@ -241,5 +252,9 @@ li {
 .socialMediaIcon {
   height: 50px;
   margin: 10px .5em 10px 0px; }
+
+.privacy_body {
+  margin: 1em;
+}
 
 /*# sourceMappingURL=input.css.map */
