@@ -132,18 +132,6 @@ a:hover {
   height: 50px;
 }
 
-#section5 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  height: auto;
-  width: 100%;
-  max-width: 100%;
-  background-color: #FFFFFF;
-  margin: 0px;
-  color: #292F36;
-}
-
 #section6 {
   position: relative;
   display: inline-block;
