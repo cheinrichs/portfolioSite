@@ -36,12 +36,4 @@ jQuery(function () {
       easing: 'swing'
     });
   });
-  $('#scrollDown6').click( function(){
-    $('#section6').ScrollTo({
-      duration: 1500,
-      easing: 'swing'
-    });
-  });
-
-
 });
