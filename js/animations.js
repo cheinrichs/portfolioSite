@@ -1,5 +1,3 @@
-console.log("animations");
-
 $(document).ready( function () {
 
   $('#scrollDown1').delay( 500 ).fadeIn('slow ');
