@@ -147,11 +147,21 @@ a:hover {color: #FFAB05; text-decoration: none; }
   min-height: 100%;
   width: 100%;
   max-width: 100%;
+  background-color: #FFFFFF;
+  margin: 0px;
+  color: $primary-blue;
+}
+
+#section7 {
+  position: relative;
+  display: inline-block;
+  min-height: 100%;
+  width: 100%;
+  max-width: 100%;
   background-color: $primary-blue;
   margin: 0px;
   color: #FFFFFF;
 }
-
 
 
 .appName {
@@ -172,7 +182,6 @@ a:hover {color: #FFAB05; text-decoration: none; }
   display: inline-block;
   width: 100%;
   text-align: center;
-  background-color: red;
 }
 
 

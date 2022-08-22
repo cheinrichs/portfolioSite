@@ -1,4 +1,4 @@
-$(document).ready( function () {
+jQuery(function () {
 
   $('#scrollDown1').delay( 500 ).fadeIn('slow ');
 
