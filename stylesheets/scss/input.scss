@@ -64,21 +64,24 @@ a:hover {color: #FFAB05; text-decoration: none; }
   height: 150px;
 }
 
-.demoButton {
-  display: inline-block;
-  background-color: $highlight2;
-  padding: 10px;
-  text-align: center;
-  width: 150px;
-  border-radius: 5px;
-  margin: 10px auto auto auto;
-  transition: .5s;
+#app-css-override {
+
+  .main-btn {
+    display: inline-block;
+    background-color: $highlight2;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px auto auto auto;
+    color: white;
+  }
+  .main-btn:hover {
+    background-color: $highlight;
+    transition: .5s;
+  }
 }
 
-.demoButton:hover {
-  background-color: $highlight;
-  transition: .5s;
-}
+
 
 
 #section2 {
@@ -107,6 +110,9 @@ a:hover {color: #FFAB05; text-decoration: none; }
   background-color: #FFFFFF;
   margin: 0px;
   color: $primary-blue;
+  .tech1 {
+    color: white;
+  }
 }
 
 #section4 {
@@ -126,18 +132,8 @@ a:hover {color: #FFAB05; text-decoration: none; }
 .viewSourceCode {
   height: 50px;
 }
-#section6 {
-  position: relative;
-  display: inline-block;
-  min-height: 100%;
-  width: 100%;
-  max-width: 100%;
-  background-color: #FFFFFF;
-  margin: 0px;
-  color: $primary-blue;
-}
 
-#section7 {
+#section6 {
   position: relative;
   display: inline-block;
   min-height: 100%;
@@ -178,6 +174,10 @@ a:hover {color: #FFAB05; text-decoration: none; }
 .appTextContainer {
   font-size: 1.5em;
 }
+.aboutMeTextContainer {
+  font-size: 1.5em;
+  text-align: center;
+}
 
 .demoPhoto{
   margin-top: 42px;
@@ -215,10 +215,6 @@ a:hover {color: #FFAB05; text-decoration: none; }
   font-size: .8em;
 }
 
-.techWhiteText{
-  color: white;
-}
-
 ul {
   margin-left: 0px;
   padding-left: 0px;
@@ -244,13 +240,13 @@ li {
   // width: 100%;
 }
 
-.aboutMe {
-  position: relative;
-  top: 200px;
-  font-size: 18px;
-  vertical-align: middle;
-  text-align: right;
-}
+// .aboutMe {
+//   position: relative;
+//   top: 200px;
+//   font-size: 18px;
+//   vertical-align: middle;
+//   text-align: right;
+// }
 
 // < -- - -- - Get In Touch - -- - -- >
 

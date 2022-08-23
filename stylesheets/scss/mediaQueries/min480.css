@@ -18,11 +18,16 @@
   li {
     text-align: left !important;
   }
+  
+  .main-btn {
+    width: 100% !important;
+    margin-bottom: 25px !important;
+  }
 
-  .aboutMe {
+  /* .aboutMe {
     top: 60px !important;
     text-align: center !important;
-  }
+  } */
   .coopPhotoContainer {
     top: 50px !important
   }

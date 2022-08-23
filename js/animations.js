@@ -36,4 +36,10 @@ jQuery(function () {
       easing: 'swing'
     });
   });
+  $('#scrollDown6').on('click', function () {
+    $('#section7').ScrollTo({
+      duration: 1500,
+      easing: 'swing'
+    });
+  });
 });

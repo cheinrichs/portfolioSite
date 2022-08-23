@@ -5,38 +5,24 @@
   <title>Cooper Heinrichs Portfolio</title>
 
   <link rel="stylesheet" href="stylesheets/styles.css">
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css?family=Nunito:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet" type="text/css">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/animations.js"></script>
   <script src="//rawgit.com/balupton/jquery-scrollto/gh-pages/lib/jquery-scrollto.js"></script>
 
 </head>
-<body>
+<body id="app-css-override">
 
   <div class="landing">
 
@@ -64,12 +50,13 @@
 
         <div class="col-lg-6 col-md-6 col-sm-12 imageContainer ">
           <img class="demoPhoto img-fluid" src="images/whinny_app_and_website.png" alt="">
-          <div class="hidden-sm hidden-xs">
+          <div class="d-none d-md-block">
             <a href="https://youtu.be/0YngD0A0dyY" target="_blank">
-              <div class="demoButton techWhiteText">
-                <span class="glyphicon glyphicon-play" aria-hidden="true"></span><br>
+              <button type="button" class="btn main-btn">
+                <i class="bi bi-play-btn"></i>
+                <br/>
                 Watch the Demo!
-              </div>
+              </button>
             </a>
           </div>
         </div>
@@ -90,12 +77,12 @@
           </ul>
           <br>
 
-          <div class="hidden-md hidden-lg">
+          <div class="d-block d-md-none">
             <a href="https://youtu.be/0YngD0A0dyY" target="_blank">
-              <div class="demoButton techWhiteText">
-                <span class="glyphicon glyphicon-play" aria-hidden="true"></span><br>
+              <button type="button" class="btn main-btn">
+                <i class="bi bi-play-btn"></i><br>
                 Watch the Demo
-              </div>
+              </button>
             </a>
           </div>
 
@@ -129,14 +116,10 @@
     <div class="appDescriptionContainer">
 
       <div class="row">
-
-        <div class="hidden-md hidden-lg">
-          <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
-            <img class="demoPhoto img-fluid" src="http://respect-mag.com/wp-content/uploads/2016/07/011716-NBA-Thunder-Russell-Westbrook-PI-CH.vresize.1200.675.high_.84.jpg" alt="">
-          </div>
-        </div>
-
         <div class="col-lg-6 col-md-6 col-sm-12 appTextContainer">
+          <div class="d-block d-md-none">
+            <img class="demoPhoto img-fluid" src="images/StockSnap_CPFZBQDCK0.jpg" alt="">
+          </div>
           <h1 class="appName">BBALL</h1>
 
           An in-game analytics front-end rebuild for an NBA team analytics team that is currently in use by the coaching staff.
@@ -155,23 +138,20 @@
           </ul>
           <br>
 
-          <span class="tech1 techWhiteText">Angular 1.5</span>
-          <span class="tech1 techWhiteText">Customized Materialize CSS</span>
-          <span class="tech1 techWhiteText">Sass</span>
-          <span class="tech1 techWhiteText">Proprietary Thunder API</span>
-          <span class="tech1 techWhiteText">Chai</span>
-          <span class="tech1 techWhiteText">TDD</span>
+          <span class="tech1">Angular 1.5</span>
+          <span class="tech1">Customized Materialize CSS</span>
+          <span class="tech1">Sass</span>
+          <span class="tech1">Proprietary Thunder API</span>
+          <span class="tech1">Chai</span>
+          <span class="tech1">TDD</span>
 
         </div>
-
-        <div class="hidden-sm hidden-xs">
-          <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+        <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
+          <div class="d-none d-md-block">
             <img class="demoPhoto img-fluid" src="images/StockSnap_CPFZBQDCK0.jpg" alt="">
           </div>
         </div>
-
       </div>
-
     </div>
 
     <div class="scrollDownRow">
@@ -187,12 +167,12 @@
         <div class="col-lg-6 col-md-6 col-sm-12 imageContainer">
           <img class="demoPhoto img-fluid" src="images/barn_alert_mobile_and_web.png" alt="">
 
-          <div class="hidden-sm hidden-xs">
+          <div class="d-none d-md-block">
             <a href="http://barn-alert.surge.sh/" target="_blank">
-              <div class="demoButton techWhiteText">
-                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
+              <button type="button" class="btn main-btn">
+                <i class="bi bi-box-arrow-up-right"></i><br />
                 View Live Site
-              </div>
+              </button>
             </a>
           </div>
         </div>
@@ -209,12 +189,12 @@
           </ul>
           <br>
 
-          <div class="hidden-md hidden-lg">
+          <div class="d-block d-md-none">
             <a href="http://www.fixed-string.surge.sh" target="_blank">
-              <div class="demoButton techWhiteText">
-                <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span><br>
+              <button type="button" class="btn main-btn">
+                <i class="bi bi-box-arrow-up-right"></i><br />
                 View Live Site
-              </div>
+              </button>
             </a>
           </div>
 
@@ -238,52 +218,53 @@
 
   </div>
   
-  <div id="section6">
+  <div id="section5">
     <div class="appDescriptionContainer">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 aboutMe">
+        <div class="col-lg-6 col-md-6 col-sm-12 imageContainer aboutMe">
 
-          <div class="hidden-md hidden-lg">
-            <img class="coopPhoto img-fluid" src="images/cooper_rmnp.png" alt="">
+          <div class="d-block d-md-none demoPhoto">
+            <img class="img-fluid" src="images/cooper_rmnp.png" alt="">
           </div>
 
           <h1 class="appName aboutMeTitle">ABOUT ME</h1>
 
-          <div class="hidden-sm hidden-xs">
+          <div class="d-none d-md-block aboutMeText">
             I love being a developer, learning new things, solving problems, and I'd love to build great products for you and your company.
           </div>
         </div>
 
         <div class="col-lg-6 col-md-6 col-sm-12">
 
-          <div class="coopPhotoContainer appTextContainer">
+          <div class="aboutMeTextContainer">
 
-            <div class="hidden-xs hidden-sm">
-              <img class="coopPhoto img-fluid" src="images/cooper_rmnp.png" alt="">
+            <div class="d-none d-md-block">
+              <img class="img-fluid demoPhoto" src="images/cooper_rmnp.png" alt="">
             </div>
 
-            <div class="hidden-sm hidden-xs">
+            <div class="d-none d-md-block">
               <a href="images/CHeinrichs_Resume_2022.pdf" target="_blank">
-                <div class="demoButton techWhiteText">
-                  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><br>
+                <button type="button" class="btn main-btn">
+                  <i class="bi bi-file-earmark-arrow-down"></i>
                   Download My Resume
-                </div>
+                </button>
               </a>
             </div>
 
 
-            <div class="hidden-md hidden-lg hidden-xl">
+            <div class="d-block d-md-none">
               <ul>
                 <li>I love learning new things</li>
                 <li>I love solving problems</li>
                 <li>I want to make great products for you and your company</li>
               </ul>
               <a href="images/CHeinrichs_Resume_2022.pdf" target="_blank">
-                <div class="demoButton techWhiteText">
-                  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span><br>
+                <button type="button" class="btn main-btn">
+                  <i class="bi bi-file-earmark-arrow-down"></i>
                   Download My Resume
-                </div>
+                </button>
               </a>
+            
               <br>
               <br>
 
@@ -301,7 +282,7 @@
 
   </div>
 
-  <div id="section7">
+  <div id="section6">
     <div class="appDescriptionContainer">
       <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-offset-2 col-md-6 col-sm-8 col-xs-12">
