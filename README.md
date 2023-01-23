@@ -1,7 +1,8 @@
 For development:
 
-```npm install -g live-server
+```npm install -D live-server
     live-server
 
-npm install -g sass
-    sass --watch ./stylesheets/scss/input.scss ./stylesheets/styles.css```
+    Run the CLI tool to scan your template files for classes and build your CSS.
+    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
