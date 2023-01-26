@@ -15,7 +15,7 @@
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <img class="h-12 w-auto" src="images/Logo-1_black.png" alt="" />
           </div>
-          <h1 class="text-3xl font-bold tracking-tight">Coopy Heinrichs</h1>
+          <h1 class="text-3xl font-bold tracking-tight">Cooper Heinrichs</h1>
         </div>
       </div>
     </div>
@@ -242,6 +242,71 @@
     </div>
 
     <div class="sm:px-8 mt-9">
+      <div class="mx-auto max-w-6xl px-8">
+        <div class="grid grid-cols-3 border-b-2 border-zinc-500 p-6">
+          <div class="col-span-2">
+            <h2 class="text-3xl p-5">ATOMIZER</h2>
+            <p class="text-2xl p-5">
+              A link shortener API that I built to learn Golang. It uses Mux
+              routing, and I built it with dependency injection so that all
+              routes can be easily unit tested without accessing the database.
+            </p>
+            <div class="flex p-5">
+              <a
+                class="group -m-1 pr-4"
+                aria-label="Follow on GitHub"
+                href="https://github.com/cheinrichs/linkShortener"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12 2C6.475 2 2 6.588 2 12.253c0 4.537 2.862 8.369 6.838 9.727.5.09.687-.218.687-.487 0-.243-.013-1.05-.013-1.91C7 20.059 6.35 18.957 6.15 18.38c-.113-.295-.6-1.205-1.025-1.448-.35-.192-.85-.667-.013-.68.788-.012 1.35.744 1.538 1.051.9 1.551 2.338 1.116 2.912.846.088-.666.35-1.115.638-1.371-2.225-.256-4.55-1.14-4.55-5.062 0-1.115.387-2.038 1.025-2.756-.1-.256-.45-1.307.1-2.717 0 0 .837-.269 2.75 1.051.8-.23 1.65-.346 2.5-.346.85 0 1.7.115 2.5.346 1.912-1.333 2.75-1.05 2.75-1.05.55 1.409.2 2.46.1 2.716.637.718 1.025 1.628 1.025 2.756 0 3.934-2.337 4.806-4.562 5.062.362.32.675.936.675 1.897 0 1.371-.013 2.473-.013 2.82 0 .268.188.589.688.486a10.039 10.039 0 0 0 4.932-3.74A10.447 10.447 0 0 0 22 12.253C22 6.588 17.525 2 12 2Z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                class="group -m-1 cursor-pointer"
+                aria-label="Follow on GitHub"
+                onclick="showAtomizerTechStack()"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <img
+            class="h-60 w-80"
+            loading="lazy"
+            src="images/barn_alert_mobile_and_web.png"
+          />
+          <div class="col-span-3 hidden" id="atomizer-technologies">
+            <p class="text-xl p-5">
+              Technologies Used: Golang, Mux Routing, Heroku, Docker,
+              PostgreSQL, TDD
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sm:px-8 mt-9">
       <div class="mx-auto max-w-6xl px-8 flex">
         <div class="grid grid-cols-3 p-6 border-b-2 border-zinc-500">
           <div class="col-span-2">
@@ -296,6 +361,13 @@
             loading="lazy"
             src="images/whinny_app_and_website.png"
           />
+          <div class="col-span-3 hidden" id="whinny-technologies">
+            <p class="text-xl p-5">
+              Technologies Used: Ionic, Angular 1.5, Knex, Express, Node,
+              PostgreSQL, Twilio, Ionic Push, Gulp, Test Fairy, Amazon S3,
+              SparkPost
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -337,6 +409,12 @@
             loading="lazy"
             src="images/StockSnap_CPFZBQDCK0.jpg"
           />
+          <div class="col-span-3 hidden" id="bball-technologies">
+            <p class="text-xl p-5">
+              Technologies Used: Angular 1.5, Customized Materialize CSS, Sass,
+              Proprietary Thunder API, Chai, Test Driven Development
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -395,6 +473,12 @@
             loading="lazy"
             src="images/barn_alert_mobile_and_web.png"
           />
+          <div class="col-span-3 hidden" id="barn-alert-technologies">
+            <p class="text-xl p-5">
+              Technologies Used: React, Node, Express, PostgreSQL, Cheerio,
+              Twitter API, Twilio, Surge, React-Bootstrap
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -412,13 +496,18 @@
 
 <script>
   console.log("loaded the script");
+  function showAtomizerTechStack() {
+    document.getElementById("atomizer-technologies").classList.toggle("hidden");
+  }
   function showWhinnyTechStack() {
-    console.log("show whinny tech stack");
+    document.getElementById("whinny-technologies").classList.toggle("hidden");
   }
   function showBballTechStack() {
-    console.log("show BBALL tech stack");
+    document.getElementById("bball-technologies").classList.toggle("hidden");
   }
   function showBarnAlertTechStack() {
-    console.log("show Barn Alert tech stack");
+    document
+      .getElementById("barn-alert-technologies")
+      .classList.toggle("hidden");
   }
 </script>
