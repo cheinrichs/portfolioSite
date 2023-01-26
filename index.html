@@ -20,8 +20,8 @@
       </div>
     </div>
 
-    <div class="sm:px-8 mt-24">
-      <div class="mx-auto max-w-6xl px-8 flex">
+    <div class="sm:px-8 mt-16 lg:mt-24">
+      <div class="mx-auto max-w-6xl px-8 lg:flex">
         <div
           class="overflow-hidden border-solid border-black border-t-16 border-l-16 pr-8"
         >
@@ -29,12 +29,12 @@
             alt=""
             src="./images/cooper_rmnp.png"
             decoding="async"
-            class="h-48 w-72 rounded-2xl mr-12"
+            class="h-54 lg:h-48 w-72 rounded-2xl mr-12"
             style="color: transparent"
           />
         </div>
 
-        <div class="">
+        <div class="mt-16 lg:mt-0">
           <h1 class="text-3xl font-bold tracking-tight">Hello!</h1>
           <p class="mt-6 text-xl">
             My name is Cooper Heinrichs and I'm a software engineer with a
@@ -81,8 +81,8 @@
 
     <!-- Professional Experience -->
     <div class="sm:px-8 mt-24">
-      <div class="mx-auto max-w-6xl px-8 flex">
-        <div class="grid grid-cols-4">
+      <div class="mx-auto max-w-6xl px-8 lg:flex">
+        <div class="grid grid-cols-1 lg:grid-cols-4">
           <div class="col-span-2">
             <h2 class="text-3xl font-bold tracking-tight">
               Professional Work:
@@ -95,7 +95,7 @@
               code.
             </p>
           </div>
-          <div class="col-span-2 ml-16">
+          <div class="col-span-2 lg:mt-0 mt-8 lg:ml-16">
             <div
               class="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
             >
@@ -243,8 +243,10 @@
 
     <div class="sm:px-8 mt-9">
       <div class="mx-auto max-w-6xl px-8">
-        <div class="grid grid-cols-3 border-b-2 border-zinc-500 p-6">
-          <div class="col-span-2">
+        <div
+          class="grid sm:grid-cols-1 lg:grid-cols-3 lg:p-6 border-b-2 border-zinc-500"
+        >
+          <div class="lg:col-span-2">
             <h2 class="text-3xl p-5">ATOMIZER</h2>
             <p class="text-2xl p-5">
               A link shortener API that I built to learn Golang. It uses Mux
@@ -291,12 +293,14 @@
               </a>
             </div>
           </div>
-          <img
-            class="h-60 w-80"
-            loading="lazy"
-            src="images/barn_alert_mobile_and_web.png"
-          />
-          <div class="col-span-3 hidden" id="atomizer-technologies">
+          <div class="lg:col-span-1">
+            <img
+              class="h-60 w-80 pl-5 lg:pl-0"
+              loading="lazy"
+              src="images/atmzr_logo.png"
+            />
+          </div>
+          <div class="lg:col-span-3 hidden" id="atomizer-technologies">
             <p class="text-xl p-5">
               Technologies Used: Golang, Mux Routing, Heroku, Docker,
               PostgreSQL, TDD
@@ -307,9 +311,11 @@
     </div>
 
     <div class="sm:px-8 mt-9">
-      <div class="mx-auto max-w-6xl px-8 flex">
-        <div class="grid grid-cols-3 p-6 border-b-2 border-zinc-500">
-          <div class="col-span-2">
+      <div class="mx-auto max-w-6xl px-8">
+        <div
+          class="grid sm:grid-cols-1 lg:grid-cols-3 lg:p-6 border-b-2 border-zinc-500"
+        >
+          <div class="lg:col-span-2">
             <h2 class="text-3xl p-5">WHINNY</h2>
             <p class="text-2xl p-5">
               A full stack Android/iOS app and companion website for all things
@@ -337,7 +343,6 @@
                 class="group -m-1 cursor-pointer"
                 aria-label="Follow on GitHub"
                 onclick="showWhinnyTechStack()"
-                class="cursor-pointer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -356,12 +361,14 @@
               </a>
             </div>
           </div>
-          <img
-            class="h-60 w-80"
-            loading="lazy"
-            src="images/whinny_app_and_website.png"
-          />
-          <div class="col-span-3 hidden" id="whinny-technologies">
+          <div class="lg:col-span-1">
+            <img
+              class="h-60 w-80 pl-5 lg:pl-0"
+              loading="lazy"
+              src="images/whinny_app_and_website.png"
+            />
+          </div>
+          <div class="lg:col-span-3 hidden" id="whinny-technologies">
             <p class="text-xl p-5">
               Technologies Used: Ionic, Angular 1.5, Knex, Express, Node,
               PostgreSQL, Twilio, Ionic Push, Gulp, Test Fairy, Amazon S3,
@@ -373,9 +380,11 @@
     </div>
 
     <div class="sm:px-8 mt-9">
-      <div class="mx-auto max-w-6xl px-8 flex">
-        <div class="grid grid-cols-3 p-6 border-b-2 border-zinc-500">
-          <div class="col-span-2">
+      <div class="mx-auto max-w-6xl px-8">
+        <div
+          class="grid sm:grid-cols-1 lg:grid-cols-3 lg:p-6 border-b-2 border-zinc-500"
+        >
+          <div class="lg:col-span-2">
             <h2 class="text-3xl p-5">BBALL</h2>
             <p class="text-2xl p-5">
               An in-game analytics front-end rebuild for an NBA team analytics
@@ -404,12 +413,14 @@
               </a>
             </div>
           </div>
-          <img
-            class="h-60 w-80 rounded-2xl"
-            loading="lazy"
-            src="images/StockSnap_CPFZBQDCK0.jpg"
-          />
-          <div class="col-span-3 hidden" id="bball-technologies">
+          <div class="lg:col-span-1">
+            <img
+              class="h-60 w-80 pl-5 lg:pl-0 mb-8 lg:pb-0"
+              loading="lazy"
+              src="images/StockSnap_CPFZBQDCK0.jpg"
+            />
+          </div>
+          <div class="lg:col-span-3 hidden" id="bball-technologies">
             <p class="text-xl p-5">
               Technologies Used: Angular 1.5, Customized Materialize CSS, Sass,
               Proprietary Thunder API, Chai, Test Driven Development
@@ -420,9 +431,11 @@
     </div>
 
     <div class="sm:px-8 mt-9">
-      <div class="mx-auto max-w-6xl px-8 flex">
-        <div class="grid grid-cols-3 gap-4 rounded-2xl p-6">
-          <div class="col-span-2">
+      <div class="mx-auto max-w-6xl px-8">
+        <div
+          class="grid sm:grid-cols-1 lg:grid-cols-3 gap-4 rounded-2xl lg:p-6"
+        >
+          <div class="lg:col-span-2">
             <h2 class="text-3xl p-5">BARN ALERT</h2>
             <p class="text-2xl p-5">
               A web app that sends geotargeted text contagious disease warnings
@@ -468,12 +481,14 @@
               </a>
             </div>
           </div>
-          <img
-            class="h-60 w-80"
-            loading="lazy"
-            src="images/barn_alert_mobile_and_web.png"
-          />
-          <div class="col-span-3 hidden" id="barn-alert-technologies">
+          <div class="lg:col-span-1">
+            <img
+              class="h-60 w-80 pl-5 lg:pl-0"
+              loading="lazy"
+              src="images/barn_alert_mobile_and_web.png"
+            />
+          </div>
+          <div class="lg:col-span-3 hidden" id="barn-alert-technologies">
             <p class="text-xl p-5">
               Technologies Used: React, Node, Express, PostgreSQL, Cheerio,
               Twitter API, Twilio, Surge, React-Bootstrap
