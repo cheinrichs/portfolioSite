@@ -1029,6 +1029,14 @@ video {
     width: 0px;
   }
 
+  .lg\:w-72 {
+    width: 18rem;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
   .lg\:flex-1 {
     flex: 1 1 0%;
   }
